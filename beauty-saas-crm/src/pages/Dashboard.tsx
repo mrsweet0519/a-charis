@@ -1,9 +1,8 @@
 import React from 'react';
-import { useShop } from '../contexts/ShopContext';
 import { useCRMData } from '../hooks/useCRMData';
 import { 
-  Users, CalendarCheck, TrendingUp, AlertCircle, MessageSquare, Ticket, 
-  ArrowRight, Zap, UserPlus, Send, PlusCircle, CheckCircle, 
+  Ticket, 
+  Zap, UserPlus, Send, PlusCircle, CheckCircle, 
   Clock, Flame, Star, Coffee, ChevronRight
 } from 'lucide-react';
 import { isToday } from 'date-fns';
@@ -12,14 +11,16 @@ import { CustomerModal } from '../components/modals/CustomerModal';
 import { PaymentModal } from '../components/modals/PaymentModal';
 
 export const Dashboard: React.FC = () => {
-  const { currentShop } = useShop();
   const { customers, reservations, sales, loading, refreshData } = useCRMData();
   const [isBookingModalOpen, setIsBookingModalOpen] = React.useState(false);
   const [isCustomerModalOpen, setIsCustomerModalOpen] = React.useState(false);
   const [isPaymentModalOpen, setIsPaymentModalOpen] = React.useState(false);
   const [paymentData, setPaymentData] = React.useState<{ resId?: string; cusId?: string; amount?: number }>({});
 
-  const handleAction = (label: string, data?: any) => {
+  const handleAction = (
+    label: string,
+    data?: { id?: string; customer_id?: string; price?: number }
+  ) => {
     if (label === '예약 등록') {
       setIsBookingModalOpen(true);
       return;
@@ -351,5 +352,3 @@ export const Dashboard: React.FC = () => {
     </div>
   );
 };
-
-

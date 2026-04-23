@@ -8,6 +8,11 @@ export interface Shop {
   owner_email?: string;
   contact?: string;
   address?: string;
+  plan?: 'basic' | 'pro' | 'premium';
+  max_customers?: number;
+  sms_count?: number;
+  sms_limit?: number;
+  ai_enabled?: boolean;
   created_at: string;
 }
 

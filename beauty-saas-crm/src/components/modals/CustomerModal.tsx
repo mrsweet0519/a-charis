@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, UserPlus, Check, User, Phone, StickyNote, Star } from 'lucide-react';
+import { X, UserPlus, Check, User, Phone, StickyNote } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useShop } from '../../contexts/ShopContext';
 
@@ -45,8 +45,9 @@ export const CustomerModal: React.FC<CustomerModalProps> = ({ isOpen, onClose, o
       setPhone('');
       setMemo('');
       setType('NEW');
-    } catch (err: any) {
-      alert(`고객 등록 실패: ${err.message}`);
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : '알 수 없는 오류';
+      alert(`고객 등록 실패: ${message}`);
     } finally {
       setIsLoading(false);
     }

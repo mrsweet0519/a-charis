@@ -54,9 +54,9 @@ export const useCRMData = () => {
       setReservations(rData as Reservation[]);
       setSales(sData as Sales[]);
       setStaff(stData as Staff[]);
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('CRM 데이터 로드 실패:', err);
-      setError(err.message);
+      setError(err instanceof Error ? err.message : 'CRM 데이터 로드 중 오류가 발생했습니다.');
     } finally {
       setLoading(false);
     }

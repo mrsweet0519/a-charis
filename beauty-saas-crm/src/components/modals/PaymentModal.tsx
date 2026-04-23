@@ -58,8 +58,9 @@ export const PaymentModal: React.FC<PaymentModalProps> = ({
 
       onSuccess();
       onClose();
-    } catch (err: any) {
-      alert(`결제 처리 실패: ${err.message}`);
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : '알 수 없는 오류';
+      alert(`결제 처리 실패: ${message}`);
     } finally {
       setIsLoading(false);
     }
@@ -99,15 +100,15 @@ export const PaymentModal: React.FC<PaymentModalProps> = ({
           <div className="space-y-2">
             <label className="text-[11px] font-black text-slate-400 uppercase tracking-widest ml-1">Payment Method</label>
             <div className="grid grid-cols-3 gap-2">
-              {[
+              {([
                 { id: 'CARD', label: '카드', icon: CreditCard, color: 'text-blue-600' },
                 { id: 'CASH', label: '현금', icon: Banknote, color: 'text-emerald-600' },
                 { id: 'TRANSFER', label: '이체', icon: Wallet, color: 'text-amber-600' },
-              ].map(item => (
+              ] as const).map(item => (
                 <button
                   key={item.id}
                   type="button"
-                  onClick={() => setPaymentType(item.id as any)}
+                  onClick={() => setPaymentType(item.id)}
                   className={`flex flex-col items-center justify-center gap-2 py-3 rounded-xl border transition-all ${
                     paymentType === item.id 
                       ? `bg-white border-slate-900 shadow-md ring-2 ring-slate-900/5` 

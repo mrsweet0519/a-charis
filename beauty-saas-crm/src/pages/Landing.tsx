@@ -6,8 +6,6 @@ import {
   TrendingUp, 
   Award, 
   ArrowRight, 
-  CheckCircle, 
-  Users, 
   Star,
   Zap,
   MessageCircle
@@ -18,17 +16,8 @@ export const Landing: React.FC = () => {
     initial: { opacity: 0, y: 30 },
     whileInView: { opacity: 1, y: 0 },
     viewport: { once: true },
-    transition: { duration: 0.6, ease: "easeOut" }
+    transition: { duration: 0.6, ease: "easeOut" as const }
   };
-
-  const stagger = {
-    animate: {
-      transition: {
-        staggerChildren: 0.1
-      }
-    }
-  };
-
   return (
     <div className="min-h-screen bg-slate-900 text-white selection:bg-brand selection:text-slate-900 overflow-x-hidden font-sans">
       {/* --- Sticky Navigation CTA --- */}

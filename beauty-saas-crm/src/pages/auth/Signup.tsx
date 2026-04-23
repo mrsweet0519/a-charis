@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useShop } from '../../contexts/ShopContext';
-import { Sparkles, UserPlus } from 'lucide-react';
+import { UserPlus } from 'lucide-react';
 
 export const Signup: React.FC = () => {
   const [email, setEmail] = useState('');
@@ -26,8 +26,9 @@ export const Signup: React.FC = () => {
       } else {
         alert(`로그인 실패: ${error}`);
       }
-    } catch (err: any) {
-      alert(`시스템 오류: ${err.message}`);
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : '알 수 없는 오류';
+      alert(`시스템 오류: ${message}`);
     } finally {
       setIsLoading(false);
     }

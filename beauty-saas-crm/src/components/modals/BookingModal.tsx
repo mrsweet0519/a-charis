@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X, Calendar, Clock, User, Sparkles, Check, ChevronDown, UserPlus, Search } from 'lucide-react';
+import { X, Calendar, User, Sparkles, Check, ChevronDown, UserPlus, Search } from 'lucide-react';
 import { supabase } from '../../lib/supabase';
 import { useShop } from '../../contexts/ShopContext';
 import { useCRMData } from '../../hooks/useCRMData';
@@ -27,10 +27,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose, onS
   const [date, setDate] = useState(format(new Date(), 'yyyy-MM-dd'));
   const [time, setTime] = useState('10:00');
   const [status, setStatus] = useState<'PENDING' | 'CONFIRMED'>('CONFIRMED');
-  const [memo, setMemo] = useState('');
-  
   const [isLoading, setIsLoading] = useState(false);
-  const [searchTerm, setSearchTerm] = useState('');
 
   // 초기값 설정
   useEffect(() => {
@@ -51,10 +48,6 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose, onS
     '16:00', '16:30', '17:00', '17:30', '18:00', '18:30', 
     '19:00', '19:30', '20:00'
   ];
-
-  const filteredCustomers = customers.filter(c => 
-    c.name.includes(searchTerm) || c.phone?.includes(searchTerm)
-  );
 
   const handleSave = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -98,15 +91,15 @@ export const BookingModal: React.FC<BookingModalProps> = ({ isOpen, onClose, onS
           price: price,
           reservation_time: reservationTime,
           status: status,
-          memo: memo
+          memo: ''
         });
 
       if (rErr) throw rErr;
 
       onSuccess();
       onClose();
-    } catch (err: any) {
-      alert(err.message);
+    } catch (err: unknown) {
+      alert(err instanceof Error ? err.message : '예약 등록 중 오류가 발생했습니다.');
     } finally {
       setIsLoading(false);
     }

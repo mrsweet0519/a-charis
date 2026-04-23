@@ -14,6 +14,8 @@ interface ShopContextType {
 
 const ShopContext = createContext<ShopContextType | undefined>(undefined);
 
+const getErrorMessage = (err: unknown) => err instanceof Error ? err.message : String(err);
+
 export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [currentShop, setCurrentShop] = useState<Shop | null>(null);
   const [currentUser, setCurrentUser] = useState<User | null>(null);
@@ -87,17 +89,22 @@ export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children
         throw new Error('사용자 프로필 정보를 찾을 수 없습니다.');
       }
 
-      const user = data as any;
-      const shop = data.shops as Shop;
+      const user = data as User & { shops: Shop | null };
+      const shop = user.shops;
 
-      setCurrentUser(user as User);
+      if (!shop) {
+        throw new Error('샵 정보를 찾을 수 없습니다.');
+      }
+
+      setCurrentUser(user);
       setCurrentShop(shop);
       
       console.log('데이터 로드 완료:', shop.name);
-    } catch (err: any) {
+    } catch (err: unknown) {
+      const message = getErrorMessage(err);
       console.error('세션 로드 데이터 상세 오류:', err);
       // 에러 시 세션 초기화 (로그아웃 유도)
-      if (err.message.includes('찾을 수 없습니다')) {
+      if (message.includes('찾을 수 없습니다')) {
         setCurrentUser(null);
         setCurrentShop(null);
       }
@@ -122,9 +129,9 @@ export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children
       await fetchUserAndShop(data.user.id);
       
       return { ok: true };
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('Login Process Error:', err);
-      return { ok: false, error: err.message || '알 수 없는 로그인 오류가 발생했습니다.' };
+      return { ok: false, error: getErrorMessage(err) || '알 수 없는 로그인 오류가 발생했습니다.' };
     }
   };
 
@@ -172,8 +179,8 @@ export const ShopProvider: React.FC<{ children: React.ReactNode }> = ({ children
       // 모든 과정 성공시 세션 새로고침
       await fetchUserAndShop(authData.user.id);
       return { ok: true };
-    } catch (err: any) {
-      return { ok: false, error: err.message };
+    } catch (err: unknown) {
+      return { ok: false, error: getErrorMessage(err) };
     } finally {
       setLoading(false);
     }

@@ -1,13 +1,11 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
-import { useShop } from '../contexts/ShopContext';
 import { useCRMData } from '../hooks/useCRMData';
 import { usePermissions } from '../hooks/usePermissions';
 import { ArrowUpRight, Target, Lightbulb, TrendingDown, Settings, ArrowRight, TrendingUp } from 'lucide-react';
 import { isToday } from 'date-fns';
 
 export const Sales: React.FC = () => {
-  const { currentShop } = useShop();
   const { canViewSales } = usePermissions();
   const { sales: dbSales, loading } = useCRMData();
   
@@ -150,4 +148,3 @@ export const Sales: React.FC = () => {
     </div>
   );
 };
-

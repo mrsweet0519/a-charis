@@ -1,17 +1,15 @@
 import React, { useState } from 'react';
-import { useShop } from '../contexts/ShopContext';
 import { useCRMData } from '../hooks/useCRMData';
 import { 
-  Plus, CheckCircle, XCircle, Clock, MoreHorizontal, 
-  MessageSquare, Phone, AlertTriangle, User, 
-  Search, Calendar, TrendingUp, Sparkles, X, 
-  Send, Ticket, Star, Scissors, DollarSign
+  Plus, CheckCircle, 
+  MessageSquare, Phone, AlertTriangle, 
+  Search, Calendar, Sparkles, X, 
+  Send, Ticket, Scissors, DollarSign
 } from 'lucide-react';
 import { BookingModal } from '../components/modals/BookingModal';
 import { PaymentModal } from '../components/modals/PaymentModal';
 
 export const Booking: React.FC = () => {
-  const { currentShop } = useShop();
   const { reservations: dbReservations, customers: dbCustomers, loading, refreshData } = useCRMData();
   const [isMarketingModalOpen, setIsMarketingModalOpen] = useState(false);
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
@@ -19,7 +17,11 @@ export const Booking: React.FC = () => {
   const [paymentData, setPaymentData] = useState<{ resId?: string; cusId?: string; amount?: number }>({});
   const [selectedSlot, setSelectedSlot] = useState<string | null>(null);
 
-  const handleAction = (label: string, name: string, data?: any) => {
+  const handleAction = (
+    label: string,
+    name: string,
+    data?: { id?: string; customer_id?: string; price?: number }
+  ) => {
     if (label === '결제' && data) {
       setPaymentData({ resId: data.id, cusId: data.customer_id, amount: data.price });
       setIsPaymentModalOpen(true);
@@ -299,5 +301,3 @@ export const Booking: React.FC = () => {
     </div>
   );
 };
-
-

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { useShop } from '../contexts/ShopContext';
 import { useCRMData } from '../hooks/useCRMData';
 import { usePermissions } from '../hooks/usePermissions';
 import {
@@ -12,13 +11,14 @@ import { BookingModal } from '../components/modals/BookingModal';
 import { CustomerModal } from '../components/modals/CustomerModal';
 
 export const Customers: React.FC = () => {
-  const { currentShop } = useShop();
   const { customers: dbCustomers, loading, refreshData } = useCRMData();
   const { canUseAI } = usePermissions();
   const [isBookingModalOpen, setIsBookingModalOpen] = useState(false);
   const [isCustomerModalOpen, setIsCustomerModalOpen] = useState(false);
   const [selectedCustomerId, setSelectedCustomerId] = useState<string | undefined>(undefined);
   const [searchQuery, setSearchQuery] = useState('');
+  const [activeFilter, setActiveFilter] = useState('ALL');
+  const [expandedId, setExpandedId] = useState<string | null>(null);
 
   const handleAction = (label: string, name: string, customerId?: string) => {
     if (label === '예약 등록' && customerId) {
@@ -405,5 +405,4 @@ export const Customers: React.FC = () => {
     </div>
   );
 };
-
 

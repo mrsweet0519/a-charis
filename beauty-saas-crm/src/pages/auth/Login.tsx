@@ -35,7 +35,7 @@ export const Login: React.FC = () => {
 
   // 3. 로딩이 1초 이상 지속될 경우 안내 문구 표시 타이머
   useEffect(() => {
-    let timer: NodeJS.Timeout;
+    let timer: ReturnType<typeof setTimeout>;
     if (isLoading) {
       timer = setTimeout(() => {
         setShowProgressMsg(true);
@@ -75,7 +75,7 @@ export const Login: React.FC = () => {
       } else {
         setErrorMsg(result.error || '이메일 또는 비밀번호가 일치하지 않습니다.');
       }
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('로그인 오류:', err);
       setErrorMsg('인증 서버와 통신 중 오류가 발생했습니다.');
     } finally {
