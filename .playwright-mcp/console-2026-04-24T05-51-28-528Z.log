@@ -1,0 +1,5 @@
+[     423ms] Error: supabaseUrl is required.
+    at $s (https://charis-landing.vercel.app/assets/index-B34V5Nt-.js:34:37450)
+    at new tc (https://charis-landing.vercel.app/assets/index-B34V5Nt-.js:34:37802)
+    at nc (https://charis-landing.vercel.app/assets/index-B34V5Nt-.js:34:40937)
+    at https://charis-landing.vercel.app/assets/index-B34V5Nt-.js:34:41397

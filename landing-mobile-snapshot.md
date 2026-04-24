@@ -1,0 +1,108 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e11]:
+        - paragraph [ref=e12]: Charis Beauty
+        - paragraph [ref=e13]: Premium Growth Landing
+  - main [ref=e14]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]
+        - generic [ref=e22]
+        - paragraph [ref=e27]: 예쁜 랜딩페이지를 넘어서, 고객이 멈추고 이해하고 움직이게 만드는 흐름까지 함께 설계합니다. 이번 STEP3는 블랙 앤 골드 톤의 프리미엄 감도 위에 실제 전환을 위한 섹션 구조를 완성하는 단계입니다.
+        - generic [ref=e28]
+        - generic [ref=e37]
+      - generic [ref=e51]:
+        - generic [ref=e52]
+        - generic [ref=e57]
+    - generic [ref=e82]:
+      - generic [ref=e84]:
+        - paragraph [ref=e85]: 02. 문제 공감
+        - heading "지금의 답답함은, 당신만 느끼는 문제가 아닙니다" [level=2] [ref=e86]
+        - paragraph [ref=e87]: 좋은 기술과 성실한 운영이 있어도 고객의 선택 기준이 흐릿하면 예약은 쉽게 늘지 않습니다. 그래서 먼저 “내가 못해서”가 아니라 “구조가 비어 있어서”라는 시선 전환이 필요합니다.
+      - generic [ref=e88]:
+        - generic [ref=e89]
+        - generic [ref=e136]
+    - generic [ref=e164]:
+      - generic [ref=e166]:
+        - paragraph [ref=e167]: 03. 문제 재정의
+        - heading "예약이 안 늘어나는 이유를 다시 정의해야 합니다" [level=2] [ref=e168]
+        - paragraph [ref=e169]: 더 많이 알리면 해결될 것 같지만, 실제로는 고객이 ‘왜 이 샵이어야 하는지’를 이해하지 못하는 경우가 많습니다. 그래서 카리스뷰티는 양보다 해석 구조를 먼저 봅니다.
+      - generic [ref=e170]:
+        - generic [ref=e172]
+        - generic [ref=e179]
+        - generic [ref=e186]
+    - generic [ref=e194]:
+      - generic [ref=e196]:
+        - paragraph [ref=e197]: 04. 원인 설명
+        - heading "고객은 기술보다 먼저 구조를 경험합니다" [level=2] [ref=e198]
+        - paragraph [ref=e199]: 좋은 시술은 마지막 판단 근거입니다. 그 전에는 첫 화면, 문장, 분위기, 사례, CTA가 고객 마음속에서 ‘신뢰의 순서’를 만듭니다.
+      - generic [ref=e200]:
+        - generic [ref=e202]
+        - generic [ref=e216]
+        - generic [ref=e225]
+      - generic [ref=e243]:
+        - generic [ref=e244]
+        - generic [ref=e249]
+        - generic [ref=e254]
+        - generic [ref=e259]
+    - generic [ref=e266]:
+      - generic [ref=e268]:
+        - paragraph [ref=e269]: 05. 해결 구조
+        - heading "카리스뷰티는 흩어진 강점을 하나의 성장 구조로 묶습니다" [level=2] [ref=e270]
+        - paragraph [ref=e271]: 브랜드를 감성으로만 다루지 않습니다. 고객이 어디서 멈추고, 무엇을 보고 신뢰하며, 어떤 CTA에서 움직이는지까지 순서대로 설계합니다.
+      - generic [ref=e272]:
+        - generic [ref=e273]
+        - generic [ref=e315]
+    - generic [ref=e370]:
+      - generic [ref=e372]:
+        - paragraph [ref=e373]: 06. 현실 가능성
+        - heading "화려한 팀이나 큰 광고비가 있어야만 가능한 구조가 아닙니다" [level=2] [ref=e374]
+        - paragraph [ref=e375]: 카리스뷰티는 실제 현장에서 운영 가능한 범위 안에서 움직입니다. 지금 가진 계정과 자료로도 충분히 시작할 수 있도록 설계하는 것이 중요합니다.
+      - generic [ref=e376]:
+        - generic [ref=e378]
+        - generic [ref=e399]
+    - generic [ref=e432]:
+      - generic [ref=e434]:
+        - paragraph [ref=e435]: 07. 결과 증명
+        - heading "결과는 감이 아니라 변화가 보이는 장면으로 증명합니다" [level=2] [ref=e436]
+        - paragraph [ref=e437]: 숫자 하나보다 중요한 건 고객 반응이 어떻게 달라졌는지입니다. 그래서 카리스뷰티는 메시지 이해도, 상담 퀄리티, 운영 에너지 변화까지 함께 봅니다.
+      - generic [ref=e438]:
+        - generic [ref=e439]
+        - generic [ref=e453]
+    - generic [ref=e469]:
+      - generic [ref=e471]:
+        - paragraph [ref=e472]: 08. 사례 Case
+        - heading "실제 사례는 고객 시선이 바뀌는 지점에서 시작됩니다" [level=2] [ref=e473]
+        - paragraph [ref=e474]: 사례는 단순 성과 자랑이 아니라, 어떤 문장과 구조가 고객 행동을 달라지게 만들었는지 보여주는 증거여야 합니다.
+      - generic [ref=e475]:
+        - generic [ref=e476]
+        - generic [ref=e525]
+    - generic [ref=e541]:
+      - generic [ref=e543]:
+        - paragraph [ref=e544]: 09. 커리큘럼
+        - heading "무엇을 배우고, 어떤 순서로 내 구조를 바꾸게 되는지" [level=2] [ref=e545]
+        - paragraph [ref=e546]: 웨비나와 후속 프로그램은 감성 자극보다 실행 순서를 중요하게 다룹니다. 듣고 끝나는 것이 아니라 적용할 수 있는 흐름으로 구성했습니다.
+      - generic [ref=e547]:
+        - generic [ref=e549]
+        - generic [ref=e582]
+    - generic [ref=e637]:
+      - generic [ref=e639]:
+        - paragraph [ref=e640]: 10. 무료 웨비나
+        - heading "부담 없이 구조를 이해할 수 있는 30분 무료 웨비나" [level=2] [ref=e641]
+        - paragraph [ref=e642]: 바로 결제나 긴 상담으로 넘어가기 전에, 현재 내 상황을 어떤 관점으로 봐야 하는지 먼저 이해할 수 있도록 구성했습니다.
+      - generic [ref=e643]:
+        - generic [ref=e645]
+        - generic [ref=e685]
+    - generic [ref=e704]:
+      - generic [ref=e705]:
+        - paragraph [ref=e706]: 11. 유료 전환 CTA
+        - heading "무료로 구조를 이해했다면, 이제 내 샵에 맞게 구체화할 차례입니다" [level=2] [ref=e707]
+        - paragraph [ref=e709]: VIP 상담에서는 카리스뷰티의 성장 구조를 당신의 현재 상황에 맞게 재배치합니다. 막연한 조언이 아니라 실제 페이지, 콘텐츠, 제안 흐름 기준으로 정리합니다.
+        - link "VIP 상담 신청하기" [ref=e711] [cursor=pointer]:
+          - /url: "#vip-consulting"
+      - generic [ref=e715]:
+        - paragraph [ref=e716]: VIP Consulting Includes
+        - generic [ref=e717]
+        - generic [ref=e733]

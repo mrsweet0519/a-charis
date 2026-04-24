@@ -1,0 +1,481 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img [ref=e8]
+        - generic [ref=e11]:
+          - paragraph [ref=e12]: Charis Beauty
+          - paragraph [ref=e13]: Trend-forward Conversion Landing
+      - link "지금 무료 세션 신청하기" [ref=e14] [cursor=pointer]:
+        - /url: "#free-session"
+        - generic [ref=e15]: 지금 무료 세션 신청하기
+        - img [ref=e16]
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - img [ref=e23]
+          - generic [ref=e26]: 01. 후킹 Hero
+        - generic [ref=e27]:
+          - paragraph [ref=e28]: Beauty Growth System
+          - heading "잘하는데도 왜 예약은 늘 제자리일까요?" [level=1] [ref=e29]:
+            - text: 잘하는데도
+            - generic [ref=e30]: 왜 예약은
+            - generic [ref=e31]: 늘 제자리일까요?
+          - generic [ref=e32]:
+            - paragraph [ref=e33]: 실력은 있는데 이유가 안 보입니다.
+            - paragraph [ref=e34]: 카리스뷰티는 그 이유를 한 번에 읽히는 구조로 바꿉니다.
+          - generic [ref=e35]:
+            - generic [ref=e36]: 후킹 첫 화면
+            - generic [ref=e37]: 전환 CTA
+            - generic [ref=e38]: 브랜드 결 설계
+          - generic [ref=e39]:
+            - link "지금 무료 세션 신청하기" [ref=e40] [cursor=pointer]:
+              - /url: "#free-session"
+              - generic [ref=e41]: 지금 무료 세션 신청하기
+              - img [ref=e42]
+            - link "구조 먼저 보기" [ref=e44] [cursor=pointer]:
+              - /url: "#growth-structure"
+              - generic [ref=e45]: 구조 먼저 보기
+              - img [ref=e46]
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - paragraph [ref=e50]: 브랜드 진단
+            - paragraph [ref=e51]: 문제가 감이 아니라 구조로 보이게
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: 전환 설계
+            - paragraph [ref=e54]: 멈추고 이해하고 클릭하게
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: 실행 문장화
+            - paragraph [ref=e57]: 올릴 수 있는 문장까지
+      - generic [ref=e59]:
+        - generic [ref=e63]:
+          - paragraph [ref=e64]: Attention Frame
+          - heading "스크롤이 아니라 시선이 먼저 멈춰야 합니다" [level=2] [ref=e65]:
+            - text: 스크롤이 아니라
+            - generic [ref=e66]: 시선이 먼저 멈춰야 합니다
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - paragraph [ref=e69]: Insight
+              - paragraph [ref=e70]: 실력은 충분한데
+              - paragraph [ref=e71]: 고객이 그 가치를 한 번에 읽지 못하면 예약은 느리게 움직입니다.
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: Shift
+              - paragraph [ref=e74]: 보이게 만들어야
+              - paragraph [ref=e75]: 문장, 분위기, 사례, CTA가 하나의 인상으로 묶입니다.
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: "01"
+              - paragraph [ref=e79]: 실력이 부족한 게 아닙니다
+            - generic [ref=e80]:
+              - generic [ref=e81]: "02"
+              - paragraph [ref=e82]: 고객이 이유를 한 번에 읽지 못하는 겁니다
+            - generic [ref=e83]:
+              - generic [ref=e84]: "03"
+              - paragraph [ref=e85]: 그래서 구조를 먼저 바꿔야 합니다
+        - paragraph [ref=e87]: Brand Pulse
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - paragraph [ref=e99]: 02. 문제 공감
+        - heading "지금 막히는 건 당신 실력보다 구조입니다" [level=2] [ref=e100]:
+          - text: 지금 막히는 건
+          - generic [ref=e101]: 당신 실력보다
+          - generic [ref=e102]: 구조입니다
+        - paragraph [ref=e103]: 많이 하는데 덜 남는 이유. 고객은 이미 잘하는 사람보다 먼저 이해되는 사람을 선택합니다.
+        - link "내 상황 무료로 진단받기" [ref=e105] [cursor=pointer]:
+          - /url: "#diagnosis"
+          - generic [ref=e106]: 내 상황 무료로 진단받기
+          - img [ref=e107]
+      - generic [ref=e109]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: Quiet Reality
+            - heading "잘해도 바로 선택되지 않는 이유" [level=3] [ref=e115]
+          - img [ref=e116]
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - generic [ref=e123]:
+              - img [ref=e125]
+              - generic [ref=e129]:
+                - paragraph [ref=e130]: Pain 01
+                - heading "문의는 오는데 예약이 안 됩니다" [level=3] [ref=e131]
+                - paragraph [ref=e132]: 좋아요와 질문은 쌓이는데 결제와 예약으로 이어지는 흐름이 비어 있습니다.
+            - generic [ref=e134]:
+              - img [ref=e136]
+              - generic [ref=e140]:
+                - paragraph [ref=e141]: Pain 02
+                - heading "후기는 많은데 브랜드는 약합니다" [level=3] [ref=e142]
+                - paragraph [ref=e143]: 잘하는 원장님으로는 기억되지만, 비싸도 가고 싶은 브랜드로는 남지 않습니다.
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - paragraph [ref=e147]: Pressure
+              - heading "계속 내가 직접 설명해야만 움직이는 구조" [level=3] [ref=e148]:
+                - text: 계속 내가 직접
+                - generic [ref=e149]: 설명해야만 움직이는 구조
+            - paragraph [ref=e150]: 콘텐츠는 많은데 고객이 왜 나를 선택해야 하는지가 즉시 보이지 않으면, 상담에서 다시 설득을 시작하게 됩니다.
+        - generic [ref=e152]:
+          - paragraph [ref=e153]: 핵심 포인트
+          - paragraph [ref=e154]:
+            - text: 문제는 노력 부족보다
+            - generic [ref=e155]: 보여지는 방식의 부족
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - paragraph [ref=e160]: 03. 문제 재정의
+        - heading "더 올리면 되는 게 아니라 한 번에 읽히게 만들어야 합니다" [level=2] [ref=e161]:
+          - text: 더 올리면 되는 게 아니라
+          - generic [ref=e162]: 한 번에 읽히게
+          - generic [ref=e163]: 만들어야 합니다
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - paragraph [ref=e167]: Wrong
+          - paragraph [ref=e168]: 광고를 더 돌리고 콘텐츠를 더 올리면 해결된다
+        - generic [ref=e169]:
+          - paragraph [ref=e170]: What Actually Matters
+          - paragraph [ref=e171]:
+            - text: 고객이 왜 여기여야 하는지
+            - generic [ref=e172]: 첫 화면에서부터 이해하게 만들어야 한다
+    - generic [ref=e175]:
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - paragraph [ref=e179]: 04. 원인 설명
+          - heading "고객은 기술보다 먼저 구조를 경험합니다" [level=2] [ref=e180]:
+            - text: 고객은 기술보다 먼저
+            - generic [ref=e181]: 구조를 경험합니다
+        - paragraph [ref=e182]: 좋은 시술은 마지막 판단 근거입니다. 그 전에는 첫 화면, 문장, 분위기, 사례, CTA가 신뢰의 순서를 만듭니다.
+      - generic [ref=e183]:
+        - generic [ref=e186]:
+          - img [ref=e188]
+          - heading "점처럼 흩어진 메시지" [level=3] [ref=e197]
+          - paragraph [ref=e198]: 후기, 전후사진, 소개 문장, 가격 정보가 따로 놀면 고객은 강점을 조합해주지 않습니다.
+          - generic [ref=e199]: Cause 01
+        - generic [ref=e202]:
+          - img [ref=e204]
+          - heading "페이지 흐름의 부재" [level=3] [ref=e208]
+          - paragraph [ref=e209]: 좋은 내용도 순서가 없으면 읽고 끝납니다. 시선이 움직이는 경로를 설계해야 합니다.
+          - generic [ref=e210]: Cause 02
+        - generic [ref=e213]:
+          - img [ref=e215]
+          - heading "결이 없는 브랜딩" [level=3] [ref=e227]
+          - paragraph [ref=e228]: 고객은 시술보다 분위기와 신뢰를 먼저 삽니다. 결이 없으면 가격 비교만 남습니다.
+          - generic [ref=e229]: Cause 03
+    - generic [ref=e232]:
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - paragraph [ref=e235]: 05. 해결 구조
+          - heading "흩어진 강점을 하나의 성장 구조로 묶습니다" [level=2] [ref=e236]:
+            - text: 흩어진 강점을
+            - generic [ref=e237]: 하나의 성장 구조로 묶습니다
+        - generic [ref=e239]:
+          - img [ref=e241]
+          - generic [ref=e245]:
+            - paragraph [ref=e246]: Step 01
+            - heading "브랜드 핵심 진단" [level=3] [ref=e247]
+            - paragraph [ref=e248]: 고객이 어디서 멈추고 왜 다음 행동을 안 하는지부터 짚습니다.
+        - generic [ref=e250]:
+          - img [ref=e252]
+          - generic [ref=e256]:
+            - paragraph [ref=e257]: Step 02
+            - heading "카리스 성장 구조 설계" [level=3] [ref=e258]
+            - paragraph [ref=e259]: 메시지, 페이지, 사례, CTA를 한 흐름으로 연결합니다.
+        - generic [ref=e261]:
+          - img [ref=e263]
+          - generic [ref=e267]:
+            - paragraph [ref=e268]: Step 03
+            - heading "실행용 문장과 화면 전환" [level=3] [ref=e269]
+            - paragraph [ref=e270]: 바로 올릴 수 있는 문장과 섹션 구조로 바꿔 실제 예약 행동으로 연결합니다.
+        - link "카리스 성장 구조 확인하기" [ref=e272] [cursor=pointer]:
+          - /url: "#growth-structure"
+          - generic [ref=e273]: 카리스 성장 구조 확인하기
+          - img [ref=e274]
+      - generic [ref=e276]:
+        - generic [ref=e277]:
+          - generic [ref=e278]:
+            - generic [ref=e279]:
+              - paragraph [ref=e280]: Dot vs Texture
+              - heading "점 VS 결 구조 예시" [level=3] [ref=e281]
+            - img [ref=e283]
+          - paragraph [ref=e287]: 단순 비교가 아니라, 고객이 왜 더 믿고 싶어지는지 보여주는 시각 슬롯입니다. 추후 브랜드 비교 이미지나 슬라이드 자료를 쉽게 교체할 수 있게 분리했습니다.
+          - generic [ref=e288]:
+            - generic [ref=e290]:
+              - img [ref=e291]
+              - text: 점으로만 찍는 홍보
+            - generic [ref=e320]:
+              - img [ref=e321]
+              - text: 결이 느껴지는 브랜딩
+          - generic [ref=e330]:
+            - generic [ref=e331]: 브랜드 비교 이미지
+            - generic [ref=e332]: 콘텐츠 샘플 슬라이드
+            - generic [ref=e333]: 강의 자료 캡처
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - paragraph [ref=e336]: Flow
+            - generic [ref=e337]:
+              - generic [ref=e338]:
+                - generic [ref=e339]: "1"
+                - paragraph [ref=e340]: 첫 3초 인상
+                - img [ref=e341]
+              - generic [ref=e343]:
+                - generic [ref=e344]: "2"
+                - paragraph [ref=e345]: 문제 공감
+                - img [ref=e346]
+              - generic [ref=e348]:
+                - generic [ref=e349]: "3"
+                - paragraph [ref=e350]: 신뢰 증명
+                - img [ref=e351]
+              - generic [ref=e353]:
+                - generic [ref=e354]: "4"
+                - paragraph [ref=e355]: 행동 CTA
+          - generic [ref=e356]:
+            - paragraph [ref=e357]: Result
+            - paragraph [ref=e358]:
+              - text: 예뻐 보이는 페이지보다
+              - generic [ref=e359]: 움직이게 만드는 페이지
+    - generic [ref=e362]:
+      - generic [ref=e363]:
+        - paragraph [ref=e364]: 06. 현실 가능성
+        - heading "화려한 팀보다 지금 가진 구조 재배치가 먼저입니다" [level=2] [ref=e365]:
+          - text: 화려한 팀보다
+          - generic [ref=e366]: 지금 가진 구조
+          - generic [ref=e367]: 재배치가 먼저입니다
+      - generic [ref=e369]:
+        - generic [ref=e371]:
+          - img [ref=e373]
+          - generic [ref=e380]:
+            - paragraph [ref=e381]: Reality Check
+            - paragraph [ref=e382]: 작게 시작해도 충분히 전환됩니다
+        - generic [ref=e383]:
+          - generic [ref=e384]: 광고 예산이 크지 않아도 가능
+          - generic [ref=e385]: 기존 인스타그램만 있어도 시작 가능
+          - generic [ref=e386]: 1인샵도 적용 가능한 구조
+          - generic [ref=e387]: 이미 가진 후기와 자료를 재배열하는 방식
+          - generic [ref=e388]: 매일 새로 찍지 않아도 되는 운영 방식
+          - generic [ref=e389]: 실력은 있는데 구조가 약한 샵일수록 더 빠름
+    - generic [ref=e392]:
+      - generic [ref=e393]:
+        - paragraph [ref=e394]: 07. 결과 증명
+        - heading "결과는 숫자보다 고객 반응이 달라지는 장면으로 증명합니다" [level=2] [ref=e395]:
+          - text: 결과는 숫자보다
+          - generic [ref=e396]: 고객 반응이 달라지는 장면으로
+          - generic [ref=e397]: 증명합니다
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - paragraph [ref=e400]: 3초
+            - paragraph [ref=e401]: 무엇이 다른지 이해되는 첫인상
+          - generic [ref=e402]:
+            - paragraph [ref=e403]: 예약 전
+            - paragraph [ref=e404]: 가격보다 가치가 먼저 보이는 흐름
+          - generic [ref=e405]:
+            - paragraph [ref=e406]: 덜 소모
+            - paragraph [ref=e407]: 같은 설명 반복이 줄어드는 운영
+      - generic [ref=e409]:
+        - generic [ref=e410]:
+          - generic [ref=e411]:
+            - paragraph [ref=e412]: Before / After
+            - heading "결과 비교 영역" [level=3] [ref=e413]
+          - generic [ref=e414]: 자료 교체용
+        - paragraph [ref=e415]: 랜딩, 소개 프로필, 후기 배치, 예약 페이지 전환 전/후 이미지를 그대로 교체할 수 있도록 만든 슬롯입니다.
+        - generic [ref=e416]:
+          - generic [ref=e417]:
+            - generic [ref=e418]: Before
+            - generic [ref=e419]: 기존 화면 / 전환 전 자료 삽입
+          - generic [ref=e420]:
+            - generic [ref=e421]: After
+            - generic [ref=e422]: 개선 화면 / 결과 자료 삽입
+        - generic [ref=e423]:
+          - paragraph [ref=e424]: 교체 가이드
+          - paragraph [ref=e425]: 왼쪽에는 기존 화면, 오른쪽에는 개선 화면을 넣으면 바로 비교 가능한 구조입니다. 랜딩, 소개 프로필, 후기 배치, 예약 페이지 캡처를 그대로 교체할 수 있습니다.
+    - generic [ref=e428]:
+      - generic [ref=e430]:
+        - generic [ref=e431]:
+          - paragraph [ref=e432]: 08. 사례 Case
+          - heading "사례는 결과보다 행동이 어떻게 바뀌었는지 보여줘야 합니다" [level=2] [ref=e433]:
+            - text: 사례는 결과보다
+            - generic [ref=e434]: 행동이 어떻게 바뀌었는지
+            - generic [ref=e435]: 보여줘야 합니다
+        - link "무료 세션으로 먼저 확인하기" [ref=e436] [cursor=pointer]:
+          - /url: "#free-session"
+          - generic [ref=e437]: 무료 세션으로 먼저 확인하기
+          - img [ref=e438]
+      - generic [ref=e440]:
+        - generic [ref=e441]:
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - generic [ref=e444]:
+                - paragraph [ref=e445]: Case 01
+                - heading "“비싸다” 대신 “분위기가 다르다”가 먼저 나오게 만든 케이스" [level=3] [ref=e446]
+              - img [ref=e447]
+            - paragraph [ref=e449]: 가격 중심 문의에서 브랜드 공감 문의로 전환
+          - generic [ref=e450]:
+            - generic [ref=e451]:
+              - paragraph [ref=e452]: Case 02
+              - heading "잘하는데 설명이 약했던 샵의 예약 흐름을 다시 세운 케이스" [level=3] [ref=e453]
+              - paragraph [ref=e454]: 후기 의존 구조에서 페이지 설득 구조로 전환
+            - generic [ref=e455]:
+              - paragraph [ref=e456]: Case 03
+              - heading "광고 없이도 문의 퀄리티가 달라진 소규모 샵 케이스" [level=3] [ref=e457]
+              - paragraph [ref=e458]: 가벼운 문의보다 진지한 상담 문의 비중 확대
+        - generic [ref=e460]:
+          - generic [ref=e461]:
+            - generic [ref=e462]:
+              - paragraph [ref=e463]: Video Slot
+              - heading "사례 인터뷰 / 후기 영상 자리" [level=3] [ref=e464]
+            - generic [ref=e465]: 영상 교체용
+          - paragraph [ref=e466]: 사례 인터뷰, 후기 영상, 강의 하이라이트를 나중에 쉽게 교체할 수 있는 영상 슬롯입니다.
+          - generic [ref=e469]:
+            - img [ref=e471]
+            - paragraph [ref=e473]: 인터뷰 / 강의 하이라이트 / 후기 영상
+          - generic [ref=e474]:
+            - generic [ref=e475]: 인터뷰 영상
+            - generic [ref=e476]: 후기 영상
+            - generic [ref=e477]: 강의 티저
+    - generic [ref=e480]:
+      - generic [ref=e482]:
+        - paragraph [ref=e483]: 09. 커리큘럼
+        - heading "듣고 끝나는 설명보다 바로 적용할 수 있는 순서" [level=2] [ref=e484]:
+          - text: 듣고 끝나는 설명보다
+          - generic [ref=e485]: 바로 적용할 수 있는 순서
+        - paragraph [ref=e486]: 감성 자극보다 실행 순서를 먼저 정리합니다. 그래서 바로 수정하고 바로 써볼 수 있습니다.
+        - link "30분 무료 웨비나 신청하기" [ref=e488] [cursor=pointer]:
+          - /url: "#webinar"
+          - generic [ref=e489]: 30분 무료 웨비나 신청하기
+          - img [ref=e490]
+      - generic [ref=e492]:
+        - generic [ref=e493]:
+          - generic [ref=e495]:
+            - generic [ref=e496]: "1"
+            - paragraph [ref=e497]: 내 샵을 기억하게 만드는 한 줄 포지션
+          - generic [ref=e499]:
+            - generic [ref=e500]: "2"
+            - paragraph [ref=e501]: 관심은 있는데 예약은 안 되는 심리 구조
+          - generic [ref=e503]:
+            - generic [ref=e504]: "3"
+            - paragraph [ref=e505]: "점 VS 결: 흩어진 홍보를 브랜드 경험으로 바꾸는 법"
+          - generic [ref=e507]:
+            - generic [ref=e508]: "4"
+            - paragraph [ref=e509]: 랜딩에서 시선이 멈추는 섹션 설계
+          - generic [ref=e511]:
+            - generic [ref=e512]: "5"
+            - paragraph [ref=e513]: CTA 문장과 제안 방식 설계
+          - generic [ref=e515]:
+            - generic [ref=e516]: "6"
+            - paragraph [ref=e517]: 바로 적용할 실행 체크리스트
+        - generic [ref=e518]:
+          - generic [ref=e519]:
+            - generic [ref=e520]:
+              - paragraph [ref=e521]: Dot vs Texture
+              - heading "커리큘럼 안의 점 VS 결 학습 영역" [level=3] [ref=e522]
+            - img [ref=e524]
+          - paragraph [ref=e528]: 슬라이드, 강의 자료, 사례 캡처를 붙이면 바로 학습용 비주얼 블록으로 바뀌는 영역입니다.
+          - generic [ref=e529]:
+            - generic [ref=e531]:
+              - img [ref=e532]
+              - text: 점으로만 찍는 홍보
+            - generic [ref=e561]:
+              - img [ref=e562]
+              - text: 결이 느껴지는 브랜딩
+          - generic [ref=e571]:
+            - generic [ref=e572]: 브랜드 비교 이미지
+            - generic [ref=e573]: 콘텐츠 샘플 슬라이드
+            - generic [ref=e574]: 강의 자료 캡처
+    - generic [ref=e577]:
+      - generic [ref=e578]:
+        - paragraph [ref=e579]: 10. 무료 웨비나
+        - heading "지금 신청해야 놓치지 않습니다" [level=2] [ref=e580]:
+          - text: 지금 신청해야
+          - generic [ref=e581]: 놓치지 않습니다
+        - paragraph [ref=e582]: 바로 결제보다 먼저 구조를 이해하게 만드는 30분. 지금 신청하는 이유가 화면에서 보이도록 웨비나 섹션을 다시 설계했습니다.
+      - generic [ref=e583]:
+        - generic [ref=e584]:
+          - generic [ref=e585]:
+            - generic [ref=e586]: 선착순 50명
+            - generic [ref=e587]: 이번 기수 마감 임박
+          - generic [ref=e588]:
+            - generic [ref=e589]:
+              - generic [ref=e590]:
+                - paragraph [ref=e591]: Registration Countdown
+                - heading "마감 전에 신청자 우선 안내" [level=3] [ref=e592]
+              - paragraph [ref=e593]: 늦게 볼수록 “다음 기수 대기”가 됩니다. 이번 흐름에 바로 올라타려면 지금 신청이 유리합니다.
+            - generic [ref=e594]:
+              - generic [ref=e595]:
+                - generic [ref=e596]: "07"
+                - generic [ref=e597]: days
+              - generic [ref=e598]:
+                - generic [ref=e599]: "16"
+                - generic [ref=e600]: hours
+              - generic [ref=e601]:
+                - generic [ref=e602]: "35"
+                - generic [ref=e603]: mins
+              - generic [ref=e604]:
+                - generic [ref=e605]: "04"
+                - generic [ref=e606]: secs
+          - generic [ref=e607]:
+            - generic [ref=e609]:
+              - img [ref=e611]
+              - paragraph [ref=e613]: 현재 페이지가 어디서 고객을 놓치는지 보는 기준
+            - generic [ref=e615]:
+              - img [ref=e617]
+              - paragraph [ref=e619]: 고객이 가격이 아니라 결을 느끼게 되는 구조
+            - generic [ref=e621]:
+              - img [ref=e623]
+              - paragraph [ref=e625]: 작은 샵도 바로 적용 가능한 랜딩/콘텐츠 설계 예시
+            - generic [ref=e627]:
+              - img [ref=e629]
+              - paragraph [ref=e631]: 무료 세션과 상담 전환으로 이어지는 CTA 흐름
+          - generic [ref=e632]:
+            - link "지금 바로 신청하기" [ref=e633] [cursor=pointer]:
+              - /url: "#webinar"
+              - generic [ref=e634]: 지금 바로 신청하기
+              - img [ref=e635]
+            - generic [ref=e637]:
+              - img [ref=e638]
+              - text: 무료 세션 안내까지 한 흐름으로 연결
+        - generic [ref=e641]:
+          - generic [ref=e642]:
+            - paragraph [ref=e643]: Why Now
+            - paragraph [ref=e644]:
+              - text: 읽는 페이지가 아니라
+              - generic [ref=e645]: 지금 움직이게 만드는 구간
+          - generic [ref=e646]:
+            - generic [ref=e647]:
+              - generic [ref=e648]:
+                - paragraph [ref=e649]: Video Slot
+                - heading "웨비나 티저 / 하이라이트 영상 자리" [level=3] [ref=e650]
+              - generic [ref=e651]: 영상 교체용
+            - paragraph [ref=e652]: 웨비나 소개 영상이나 하이라이트 클립을 넣으면 즉시 마감 압박과 신뢰를 동시에 만들 수 있는 슬롯입니다.
+            - generic [ref=e655]:
+              - img [ref=e657]
+              - paragraph [ref=e659]: 인터뷰 / 강의 하이라이트 / 후기 영상
+            - generic [ref=e660]:
+              - generic [ref=e661]: 인터뷰 영상
+              - generic [ref=e662]: 후기 영상
+              - generic [ref=e663]: 강의 티저
+    - generic [ref=e669]:
+      - generic [ref=e670]:
+        - paragraph [ref=e671]: 11. 유료 전환 CTA
+        - heading "무료로 구조를 봤다면 이제 내 샵에 맞게 구체화할 차례입니다" [level=2] [ref=e672]:
+          - text: 무료로 구조를 봤다면
+          - generic [ref=e673]: 이제 내 샵에 맞게
+          - generic [ref=e674]: 구체화할 차례입니다
+        - paragraph [ref=e675]: VIP 상담에서는 카리스 성장 구조를 당신 샵 상황에 맞춰 재배치합니다. 페이지, 콘텐츠, 사례, CTA까지 실제 실행 기준으로 정리합니다.
+        - link "VIP 상담 신청하기" [ref=e677] [cursor=pointer]:
+          - /url: "#vip-consulting"
+          - generic [ref=e678]: VIP 상담 신청하기
+          - img [ref=e679]
+      - generic [ref=e681]:
+        - generic [ref=e682]:
+          - paragraph [ref=e683]: VIP Consulting Includes
+          - generic [ref=e684]:
+            - generic [ref=e685]:
+              - img [ref=e687]
+              - paragraph [ref=e689]: 내 샵 상황에 맞춘 1:1 구조 진단
+            - generic [ref=e690]:
+              - img [ref=e692]
+              - paragraph [ref=e694]: 페이지/콘텐츠/제안 구조 맞춤 설계
+            - generic [ref=e695]:
+              - img [ref=e697]
+              - paragraph [ref=e699]: 바로 적용 가능한 우선순위와 문장 가이드
+        - generic [ref=e700]:
+          - paragraph [ref=e701]: Best Fit
+          - paragraph [ref=e702]:
+            - text: 실력과 후기 기반은 있는데
+            - generic [ref=e703]: 브랜드와 전환 구조를 제대로 세우고 싶은 샵

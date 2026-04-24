@@ -1,0 +1,10 @@
+[     147ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=e2c58d26:14336
+[     171ms] [LOG] --- 시스템 초기화 시작 --- @ http://127.0.0.1:5173/src/contexts/ShopContext.tsx:18
+[     172ms] [LOG] --- 시스템 초기화 시작 --- @ http://127.0.0.1:5173/src/contexts/ShopContext.tsx:18
+[     175ms] [LOG] --- 시스템 초기화 종료 (Loading OFF) --- @ http://127.0.0.1:5173/src/contexts/ShopContext.tsx:27
+[     264ms] [LOG] --- 시스템 초기화 종료 (Loading OFF) --- @ http://127.0.0.1:5173/src/contexts/ShopContext.tsx:27
+[     265ms] [LOG] Auth 상태 변화: INITIAL_SESSION undefined @ http://127.0.0.1:5173/src/contexts/ShopContext.tsx:38
+[    5186ms] [WARNING] 보안 타이머: 로딩이 너무 길어 강제로 해제합니다. @ http://127.0.0.1:5173/@vite/client:509
+[21919729ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://127.0.0.1:5173/src/App.tsx?t=1777008399386:0
+[21919731ms] [ERROR] [vite] Failed to reload /src/App.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://127.0.0.1:5173/@vite/client:509
+[21920234ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://127.0.0.1:5173/node_modules/.vite/deps/react-dom_client.js?v=e2c58d26:14336
